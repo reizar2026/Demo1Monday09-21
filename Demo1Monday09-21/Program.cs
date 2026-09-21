@@ -11,6 +11,8 @@
             LieDetector detector = new LieDetector();
             bool resultat = detector.CheckLie();
 
+
+
             if (resultat == true)
             {
                 Console.WriteLine("Du talar sanning");
